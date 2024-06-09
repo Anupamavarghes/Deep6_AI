@@ -21,14 +21,14 @@ import Link from "next/link";
 
 export function Card2() {
   return (
-    <div className="container mx-auto px-4 py-12 md:px-6 lg:py-16">
+    <div className="container mx-auto px-4 py-12 md:px-6 lg:py-16 text-white">
       <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
         
-        <div className="space-y-4">
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
+        <div className="space-y-4 text-white">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl ">
             STATISTICS AND BENEFITS
           </h2>
-          <p className="text-gray-500 dark:text-gray-400">
+          <p className="">
             <ul>
               <li>
                 Efficiency; deep 6ai can enroll pateints within minutes compared
@@ -53,7 +53,7 @@ export function Card2() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl md:text-5xl">
             TEXAS MEDICAL SUCCESS
           </h2>
-          <p className="text-gray-500 dark:text-gray-400">
+          <p className="">
             For the purpose of a clinical trial they were needed a dozen of
             matching participants and it took about six months to hit the target
             by selecting manually. In contrast deep 6 ai was enrolled 80
